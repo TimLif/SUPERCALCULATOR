@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        alert("Добро пожаловать в убогий калькулятор на JavaScript от Тимура!");
+        let a = +prompt("Введи первое число");
+        let blya = prompt("Введи одно из действий: Плюс - `+` , Минус - `-` , Умножение - `*` , Деление -  `/` . Без кавычек ");
+        let b = +prompt("И второе число тоже введи");
+        if (blya == "+") {
+            alert("Результат сложения: " + (a + b));
+        } else if (blya == "-") {
+            alert("Результат вычитания: " + (a - b));
+
+        } else if (blya == "*") {
+            alert("Результат умножения: " + a * b);
+
+        } else if (blya == "/") {
+            alert("Результат деления: " + a / b);
+
+        } else {
+            alert("Нормально введи!!")
+        }
+
+    </script>
+</body>
+
+</html>
